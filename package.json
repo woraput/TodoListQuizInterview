@@ -1,5 +1,5 @@
 {
-  "name": "TodoListQuizInterview",
+  "name": "todo-list-quiz-interview",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "final-form": "^4.20.10",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-final-form": "^6.5.9",
+    "react-use": "^17.4.2",
+    "sweetalert2": "^11.10.2",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.7",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
   }
 }
